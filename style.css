@@ -73,6 +73,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .project-card {
@@ -143,4 +144,18 @@ footer {
 footer a {
   color: #63b3ed;
   text-decoration: none;
+}
+
+.bullets-space li {
+  margin-bottom: 12px; /* Adjust spacing as needed */
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;      /* Makes it circular */
+  object-fit: cover;       /* Ensures image covers the area */
+  border: 3px solid #3182ce; /* Optional: colored border */
+  margin-bottom: 1em;
+  display: block;
 }
