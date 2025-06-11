@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  color: #2d2d2d;
+}
+
+header {
+  background: #2d3748;
+  color: #fff;
+  padding: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  margin: 0 1.2em;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #63b3ed;
+}
+
+main {
+  padding: 2em 0;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+h2 {
+  color: #3182ce;
+  margin-bottom: 0.7em;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background: #e2e8f0;
+  color: #2d3748;
+  padding: 0.5em 1.2em;
+  margin: 0.3em;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.3em 1em;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: #63b3ed;
+}
+
+.project-card h3 {
+  color: #2d3748;
+  margin-top: 0;
+}
+
+.project-card a {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  font-size: 1em;
+}
+
+#contact-form button {
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 0.8em;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#contact-form button:hover {
+  background: #63b3ed;
+}
+
+footer {
+  background: #2d3748;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 1.2em 0;
+  margin-top: 2em;
+  font-size: 0.95em;
+}
+
+footer a {
+  color: #63b3ed;
+  text-decoration: none;
+}
