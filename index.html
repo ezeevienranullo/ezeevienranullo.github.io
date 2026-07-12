@@ -1,95 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ezeevien Ranullo - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ezeevien Ranullo — Mobile Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <img src="images/profile.jpg" class="profile-photo">
-            <h1>Ezeevien Ranullo</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+
+  <nav>
+    <div class="nav-logo">ER.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="about">
+    <div class="hero-inner">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1>Ezeevien<br /><span>Mobile Developer</span></h1>
+      <p class="hero-bio">
+        Mobile Developer with 8 years of experience in Flutter and Android development.
+        Building reliable, high-performance apps for HR systems, e-commerce, and chat &amp; video platforms —
+        deployed across Google Play, App Store, and Huawei AppGallery.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span>8+</span><p>Years experience</p></div>
+        <div class="stat-item"><span>6+</span><p>Apps shipped</p></div>
+        <div class="stat-item"><span>3</span><p>Stores deployed</p></div>
+        <div class="stat-item"><span>4+</span><p>Frameworks</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-inner">
+      <p class="section-label">What I work with</p>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Dart</span>
+            <span class="skill-tag">Kotlin</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">TypeScript</span>
+          </div>
         </div>
-    </header>
-    <main>
-        <section id="about" class="container">
-            </header>
-            <h2>About Me</h2>
-            <p>
-                A passionate <strong>Mobile developer </strong> with strong expertise in cross-platform apps, REST APIs,
-                UI/UX, widgets,
-                and state management solutions. Proven track record in delivering high quality mobile apps, including
-                API integration, third-party libraries, and performance optimization.
-                Responsive apps and an agile collaborator committed to staying current with industry trends.
-            </p>
-            <p>
-                If you're seeking a skilled Mobile developer to breathe life into your project and exceed your
-                expectations, I am here to collaborate and create magic together. Reach out, and let's transform your
-                vision into a reality!
-            </p>
-        </section>
-
-        <section id="skills" class="container">
-            <h2>Tech Skills</h2>
-            <ul class="skills-list">
-                <li>Dart</li>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>React Native</li>
-                <li>Jetpack Compose</li>
-                <li>Expo go</li>
-                <li>Node.js</li>
-
-                <li>Manage App Releases, Google Play & Appstore</li>
-                <li>Flutter, Android SDK</li>
-                <li> MVVM, OOP</li>
-                <li>REST APIs Integration</li>
-                <li>SQLite, Firebase Firestore</li>
-                <li>Firebase</li>
-                <li>CI/CD</li>
-                <li>Firebase Console, Google play Console</li>
-                <li>Android Studio, Git, VS Code</li>
-                <li>State Management</li>
-                <li>Git</li>
-
-
-                <!-- Add or remove skills as needed -->
-            </ul>
-        </section>
-
-        <section id="projects" class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid" id="projectsGrid"></div>
-        </section>
-        <script src="projects.js"></script>
-
-        <section id="contact" class="container">
-            <h2>Contact</h2>
-            <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <p>Email: <a href="mailto:ezeevien@gmail.com">ezeevien@gmail.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            &copy; 2025 Ezeevien Ranullo
+        <div class="skill-group">
+          <h4>Frameworks</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">React Native</span>
+            <span class="skill-tag">Jetpack Compose</span>
+            <span class="skill-tag">Expo</span>
+          </div>
         </div>
-    </footer>
-    <script src="script.js"></script>
+        <div class="skill-group">
+          <h4>Architecture</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">MVVM</span>
+            <span class="skill-tag">Clean Architecture</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Offline-first</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Backend &amp; DB</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Firestore</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">REST API</span>
+            <span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>DevOps &amp; Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Android Studio</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Deployment</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Google Play</span>
+            <span class="skill-tag">App Store</span>
+            <span class="skill-tag">Huawei AppGallery</span>
+            <span class="skill-tag">Firebase Distribution</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-inner">
+      <p class="section-label">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-inner">
+      <p class="section-label">Where I've worked</p>
+      <h2 class="section-title">Experience</h2>
+      <div class="exp-list">
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div>
+            <p class="exp-role">Mobile App Developer</p>
+            <p class="exp-company">Xurpas Inc.</p>
+            <p class="exp-period">Nov 2024 – Feb 2026</p>
+            <p class="exp-desc">Built an e-commerce Flutter app with AI-powered vinyl album cover recognition and multi-role architecture. Integrated GetStream SDK for video and chat into a Kotlin Android app. Contributed to a React Native project with dynamic Frappe-driven form rendering.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div>
+            <p class="exp-role">Flutter Developer</p>
+            <p class="exp-company">Nathan &amp; Nathan</p>
+            <p class="exp-period">June 2022 – Sept 2024</p>
+            <p class="exp-desc">Developed a Flutter app for Dubai freelancers to manage visa processing entirely on mobile. Built support ticket and chat system, invoice viewing, in-app payment flows, and end-to-end employment visa workflows.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div>
+            <p class="exp-role">Application Development Analyst</p>
+            <p class="exp-company">Accenture Inc.</p>
+            <p class="exp-period">Feb 2021 – June 2022</p>
+            <p class="exp-desc">Implemented automated API testing using Karate framework integrated into Azure CI/CD pipelines. Built custom Java code to enhance testing capabilities and streamline quality assurance processes.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-dot"></div>
+          <div>
+            <p class="exp-role">Android Developer</p>
+            <p class="exp-company">Yahshua Systech Corp.</p>
+            <p class="exp-period">April 2018 – Jan 2021</p>
+            <p class="exp-desc">Built a Timekeeper and Attendance Management Android app with selfie verification, geolocation tracking, and offline-first SQLite architecture. Developed HR admin dashboards for leave and overtime management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-inner">
+      <p class="section-label">Let's work together</p>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Open to new opportunities</h3>
+          <p>Whether you have a project in mind or just want to connect — my inbox is always open. I'll get back to you as soon as I can.</p>
+          <a href="mailto:ezeevien@gmail.com" class="contact-link">
+            <div class="contact-icon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m2 7 10 7 10-7"/>
+              </svg>
+            </div>
+            ezeevien@gmail.com
+          </a>
+          <a href="tel:+63963065183" class="contact-link">
+            <div class="contact-icon">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.34a2 2 0 0 1 1.94-2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.9-.9a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            +63 963 065 0183
+          </a>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ezeevien Ranullo · Built with ❤️ · Cagayan de Oro, Philippines</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+
 </body>
-
 </html>
