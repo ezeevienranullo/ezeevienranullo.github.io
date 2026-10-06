@@ -3,8 +3,8 @@ const projects = [
     name: "NexusCore",
     platform: "Flutter · Web, iOS & Android",
     emoji: "🎵",
-    description: "•Cross-Platform CRM: Built a Flutter/Firebase platform with real-time task delegation, contact lifecycle tracking, and calendar scheduling across web and mobile.",
-    tech: ["Flutter", "Cloud Firestore", "Dio", "Firebase", "Stacked MVVM", "Drift", "GitHub"],
+    description: "Cross-Platform CRM: Built a Flutter/Firebase platform with real-time task delegation, contact lifecycle tracking, and calendar scheduling across web and mobile.",
+    tech: ["Flutter", "Cloud Firestore", "Hosting", "Firebase", "Stacked MVVM", "Drift", "GitHub"],
     link: "https://nexuscore-heritage.web.app",
     screenshot: "images/nexuscore.png"
   },
@@ -22,7 +22,7 @@ const projects = [
     platform: "Flutter · iOS & Android",
     emoji: "🎵",
     description: "E-commerce app for buying and selling physical vinyl records with AI-powered album cover recognition. Supports two distinct user roles — customers and store owners — within a single app. Store owners can manage listings, events, promos, and announcements.",
-    tech: ["Flutter", "REST API", "Hosting", "Firebase", "Geolocator", "Figma", "GitLab"],
+    tech: ["Flutter", "REST API", "Dio", "Firebase", "Geolocator", "Figma", "GitLab"],
     link: "",
     screenshot: "images/vinyl-app.png"
   },
